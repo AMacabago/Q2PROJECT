@@ -1,0 +1,132 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #adb6c4;
+}
+
+@media(max-width: 991px) {
+	.sidebar {
+		background-color: #5f6d82;
+		backdrop-filter: blur(10px);
+	}
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	box-shadow: 2px;
+}
+
+.container {
+	width: 1440px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.hero {
+	width: 100%;
+	height: 750px;
+	background-image: url(adobo.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+
+}
+
+.hero .container {
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	text-align: justify;
+}
+
+p {
+	text-align: justify;
+	padding-right: 500px;
+}
+
+.hero button {
+	width: 200px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+container {
+	padding: 3rem;
+}
+
+.bf {
+	width: 100% auto;
+	max-width: 300px;
+	height: 300px;
+}
+
+.overlay {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+}
+
+.centered {
+	font-size: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.thumbnail:hover {
+	transform: translateY(-4px);
+}
+
+.bf:hover {
+	opacity: 0.4;
+	box-shadow: 2px 2px 4px #000000;
+}
+
+.img-container:hover .overlay {
+	opacity: 1;
+}
+
+.about-page {
+	background-color: #525f7d;
+	box-shadow: 2px 2px 4px #000000;
+}
+
+.submit-page {
+	background-color: #525f7d;
+}
+
+fieldset {
+  display: block;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px groove black; 
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:  black;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
